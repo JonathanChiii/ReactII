@@ -1,25 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello from './component/Hello';
+import Welcome from './component/Welcome';
+import Message from './component/Message';
+import EventBinding from './component/EventBinding';
+import ConditionalRendering from './ConditionalRendering';
+import Parent from './component/Parent';
+import NameList from './component/NameList';
+import Counter from './component/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Hello/>
+      <Welcome name="User1" location="CA"/>
+      <Message message="Hello from the outside"/>
+      <EventBinding/>
+      <ConditionalRendering/>
+      <Parent/>
+      <NameList/>
+      <Counter/> */}
+      <NameList/>
     </div>
   );
 }
-
 export default App;
