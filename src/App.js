@@ -8,6 +8,8 @@ import ConditionalRendering from './ConditionalRendering';
 import Parent from './component/Parent';
 import NameList from './component/NameList';
 import Counter from './component/Counter';
+import LifeCycle1 from './component/LifeCycle1';
+import ParentComponent from './component/ParentComponent';
 
 function App() {
   return (
@@ -19,8 +21,12 @@ function App() {
       <ConditionalRendering/>
       <Parent/>
       <NameList/>
-      <Counter/> */}
+      <Counter/>
       <NameList/>
+      <LifeCycle1/> */}
+      <ParentComponent />
+      
+
     </div>
   );
 }
