@@ -4,12 +4,13 @@ import Hello from './component/Hello';
 import Welcome from './component/Welcome';
 import Message from './component/Message';
 import EventBinding from './component/EventBinding';
-import ConditionalRendering from './ConditionalRendering';
+import ConditionalRendering from './component/ConditionalRendering';
 import Parent from './component/Parent';
 import NameList from './component/NameList';
 import Counter from './component/Counter';
 import LifeCycle1 from './component/LifeCycle1';
 import ParentComponent from './component/ParentComponent';
+import Form1 from './component/Form';
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
       <NameList/>
       <Counter/>
       <NameList/>
-      <LifeCycle1/> */}
-      <ParentComponent />
+      <LifeCycle1/>
+      <ParentComponent /> */}
+      <Form1/>
       
 
     </div>
